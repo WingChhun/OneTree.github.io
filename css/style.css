@@ -1,0 +1,143 @@
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+    background: url(../img/pattern.jpg) center center;
+    font-family: 'Cubano-Regular';
+}
+
+
+/* FONT FACES */
+
+@font-face {
+    /*Install a font locally using Font Faces */
+    font-family: 'Cubano-Regular';
+    src: local('Cubano-Regular.otf'), url('Cubano-Regular.otf') format('opentype');
+}
+
+@font-face {
+    /*Install a font locally using Font Faces */
+    font-family: 'Nunito-Regular';
+    src: local('Nunito-Regular.ttf'), url('Nunito-Regular.ttf') format('truetype');
+}
+
+
+/* SECTION COVER */
+
+#cover {
+    height: 100%;
+    /*Background Cover */
+    background: url(../img/trees.jpg) center center;
+    background-size: cover;
+    color: white;
+}
+
+.wall-sticker {
+    padding: 14rem 20rem 16rem 3rem;
+    font-family: 'Cubano-Regular';
+    font-size: 5rem;
+    color: white;
+    /*darken background of wall-sticker
+    click rgba press ctrl + e
+    */
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.moto {
+    font-size: 3rem;
+    font-family: 'Cubano-Regular';
+    margin-top: 245px;
+    margin-left: 350px;
+    text-align: center;
+}
+
+
+/* BUTTONS */
+
+.btn-lg {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid rgba(19, 128, 26, 1);
+    font-family: 'Nunito-Regular';
+    transition: 0.5s;
+}
+
+.btn-lg:hover,
+.btn-lg:active,
+.btn-lg:focus {
+    /*Hover Will happen when we hover over*/
+    /*Active Will Selects the active link */
+    /*focus select he input element that has focus */
+    background-color: rgba(19, 128, 36, .54);
+    border: 1px solid rgba(19, 128, 26, 0);
+    transition: 0.5s;
+}
+
+.fa-arrow-down {
+    margin-left: 36rem;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    color: white;
+    transition: 0.3s;
+}
+
+.fa-arrow-down:hover {
+    color: rgba(19, 128, 36, .54);
+    transition: 0.3s;
+}
+
+.bold-green {
+    color: rgba(19, 128, 36, .9);
+}
+
+.bold-underline {
+    border-bottom: 3px solid rgba(19, 128, 36, .9);
+}
+
+
+/* NAVIGATION */
+
+
+/* SECTION - FEATURES */
+
+.green-hr {
+    border-top: 1px solid rgba(19, 128, 36, .9);
+    width: 50%;
+    background-color: rgba(19, 128, 36, .9);
+}
+
+.section-features {
+    text-align: center;
+    background: url(../img/pattern.jpg) center center;
+}
+
+.section-features h2 {
+    padding-top: 4rem;
+}
+
+.under-heading {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.square i {
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    transition: 0.3s;
+}
+
+.square i:hover {
+    color: rgba(19, 128, 36, 1);
+    transition: 0.3s;
+}
+
+.square p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Nunito-Regular';
+    font-size: 1.2rem;
+}
+
+.container {
+    max-width: 1340px;
+}
