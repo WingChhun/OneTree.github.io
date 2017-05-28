@@ -265,6 +265,46 @@ h2 {
     /*center button */
 }
 
+
+/* SECTION - TESTIMONIALS */
+
+#section-testimonials {
+    padding: 5rem;
+}
+
+.testimonials {
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.mario-img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.mario-img:hover {
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+
+blockquote {
+    font-family: 'Nunito-Regular';
+    line-height: 1.2rem;
+}
+
+.fa.fa-quote-right {
+    margin-right: 10px;
+    float: right;
+}
+
+.testimonials-hr {
+    border-top: 1px solid rgba(19, 126, 36, 1);
+    width: 260px;
+    background-color: rgba(19, 126, 36, 1);
+}
+
 .container {
     max-width: 1340px;
 }
