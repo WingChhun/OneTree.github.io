@@ -108,6 +108,7 @@ body {
 
 .section-features {
     text-align: center;
+    padding: 5rem;
     background: url(../img/pattern.jpg) center center;
 }
 
@@ -248,6 +249,19 @@ h2 {
 }
 
 
+/* SECTION - Cards */
+
+.card {
+    margin-top: 3rem;
+}
+
+.card img {
+    width: 100%;
+    transition: 1s;
+    height: 180px;
+}
+
+
 /* SECTION - PARALLAX*/
 
 #section-parallax {
@@ -263,6 +277,85 @@ h2 {
     width: 200px;
     margin: 30px auto 0 auto;
     /*center button */
+}
+
+
+/* SECTION CARDS */
+
+#section-cards h2 {
+    text-align: center;
+}
+
+#section-cards {
+    padding: 5rem 0;
+}
+
+.card {
+    margin-top: 3rem;
+}
+
+.card img {
+    height: 180px;
+    width: 100%;
+    transition: 1s;
+}
+
+.card img:hover {
+    transform: scale(0.98);
+    transition: 1s;
+}
+
+.card a {
+    color: rgba(19, 128, 36, 0.90);
+}
+
+.card a:hover {
+    color: rgb(19, 128, 36);
+}
+
+
+/* SECTION NUMBERS */
+
+.section-numbers {
+    background-color: white;
+    padding-top: 5rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.num-content {
+    display: table;
+    font-size: 20px;
+    line-height: 20px;
+    height: 140px;
+    width: 140px;
+    background: rgba(19, 128, 36, 0.91);
+    border-radius: 100px;
+    color: white;
+    transition: 0.3s;
+}
+
+.num .num-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.num {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-left: 80px;
+}
+
+.num-content p {
+    padding-top: 15px;
+}
+
+.num-content:hover {
+    color: #222;
+    transition: 0.3s;
 }
 
 
@@ -315,6 +408,7 @@ blockquote {
 
 .form-horizontal {
     margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 label {
@@ -414,6 +508,41 @@ footer p {
     transition: 0.2s;
 }
 
+
+/* Animations */
+
+.js-wp-1,
+.js-wp-2,
+.js-wp-3,
+.js-wp-4 {
+    opacity: 0;
+}
+
+.js-wp-1.animated,
+.js-wp-2.animated,
+.js-wp-3.animated,
+.js-wp-4.animated {
+    opacity: 1;
+}
+
 .container {
     max-width: 1340px;
 }
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width:1920px) {
+    .wall-sticker {
+        font-size: 5rem;
+        padding: 16rem, 20rem, 10rem, 3rem;
+    }
+    .fa-facebook-square,
+    .fa-twitter-square,
+    .fa-google-plus-square,
+    .fa-instagram {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:) {}
