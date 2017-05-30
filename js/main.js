@@ -49,76 +49,76 @@ $('.js-wp-cover2').waypoint(function (direction) {
 $('.js-wp-1').waypoint(function (direction) {
     $('.js-wp-1').addClass('animated fadeInDown');
 }, {
-    offset: '70%'
+    offset: '55%'
 });
 $('.js-wp-2').waypoint(function (direction) {
     $('.js-wp-2').addClass('animated fadeInLeft');
 }, {
-    offset: '70%'
+    offset: '60%'
 });
 $('.js-wp-3').waypoint(function (direction) {
     $('.js-wp-3').addClass('animated fadeInRight');
 }, {
-    offset: '70%'
+    offset: '60%'
 });
 $('.js-wp-4').waypoint(function (direction) {
     $('.js-wp-4').addClass('animated fadeInUp');
 }, {
-    offset: '70%'
+    offset: '60%'
 });
 //-------TIMELINE ANIMATIONS
 $('.js-wp-time').waypoint(function (d) {
     $('.js-wp-time').addClass('animated fadeInDown');
 }, {
-    offset: '80%'
+    offset: '45%'
 });
 $('.js-wp-time1').waypoint(function (d) {
     $('.js-wp-time1').addClass('animated fadeInRight');
 }, {
-    offset: '75%'
+    offset: '64%'
 });
 $('.js-wp-time2').waypoint(function (d) {
     $('.js-wp-time2').addClass('animated fadeInLeft');
 }, {
-    offset: '90%'
+    offset: '60%'
 });
 //-------PARALLAX ANIMATIONS
 $('.js-wp-para').waypoint(function (d) {
     $('.js-wp-para').addClass('animated fadeInDown');
 }, {
-    offset: '90%'
+    offset: '40%'
 });
 //-------PRODUCTS- CARDS ANIMATINOS
 $('.js-wp-para').waypoint(function (d) {
     $('.js-wp-para').addClass('animated fadeInDown');
 }, {
-    offset: '90%'
+    offset: '50%'
 });
 $('.js-wp-card').waypoint(function (d) {
     $('.js-wp-card').addClass('animated bounceInUp');
 }, {
-    offset: '80%'
+    offset: '50%'
 });
 $('.js-wp-card2').waypoint(function (d) {
     $('.js-wp-card2').addClass('animated bounceIn');
 }, {
-    offset: '80%'
+    offset: '50%'
 });
 //-------NUMBERS ANIMATIONS
 $('.js-wp-num').waypoint(function (d) {
     $('.js-wp-num').addClass('animated zoomIn');
 }, {
-    offset: '80%'
+    offset: '50%'
 });
 $('.js-wp-num1').waypoint(function (d) {
     $('.js-wp-num1').addClass('animated zoomInDown');
 }, {
-    offset: '83%'
+    offset: '60%'
 });
 $('.js-wp-num2').waypoint(function (d) {
     $('.js-wp-num2').addClass('animated zoomInUp');
 }, {
-    offset: '83%'
+    offset: '60%'
 });
 //-------TESTIMONIAL ANIMATIONS
 $('.js-wp-test').waypoint(function (d) {
