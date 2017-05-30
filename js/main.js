@@ -121,4 +121,19 @@ $('.js-wp-num2').waypoint(function (d) {
     offset: '83%'
 });
 //-------TESTIMONIAL ANIMATIONS
+$('.js-wp-test').waypoint(function (d) {
+    $('.js-wp-test').addClass('animated zoomIn');
+}, {
+    offset: '80%'
+});
+$('.js-wp-test1').waypoint(function (d) {
+    $('.js-wp-test1').addClass('animated zoomInDown');
+}, {
+    offset: '83%'
+});
+$('.js-wp-test2').waypoint(function (d) {
+    $('.js-wp-test2').addClass('animated zoomInUp');
+}, {
+    offset: '83%'
+});
 //-------CONTACT
