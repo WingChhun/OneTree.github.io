@@ -602,6 +602,21 @@ footer p {
 }
 
 
+/* TESTIMONIAL ANIMATIONS */
+
+.js-wp-test,
+.js-wp-test1,
+.js-wp-test2 {
+    opacity: 0;
+}
+
+.js-wp-test.animated,
+.js-wp-test1.animated,
+.js-wp-test2.animated {
+    opacity: 1;
+}
+
+
 /* RESPONSIVE */
 
 @media only screen and (max-width:1920px) {
